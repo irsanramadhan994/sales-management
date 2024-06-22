@@ -11,7 +11,6 @@ import {
   deleteSale,
   createProductType,
   updateProductType,
-  deleteProductType,
 } from "../api/api";
 
 const SalesPage = () => {

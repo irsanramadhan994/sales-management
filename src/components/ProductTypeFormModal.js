@@ -34,7 +34,7 @@ const ProductTypeFormModal = ({ open, onClose, initialValues, onSubmit }) => {
                 <Button type="submit" variant="contained" color="primary">
                   Submit
                 </Button>
-                <Button type="submit" variant="contained" color="secondary">
+                <Button type="submit" onClick={onClose} variant="contained" color="secondary">
                   Cancel
                 </Button>
               </Box>

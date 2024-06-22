@@ -44,7 +44,7 @@ const SalesFormModal = ({ open, onClose, initialValues, onSubmit, productTypes }
                 <Button type="submit" variant="contained" color="primary">
                   Submit
                 </Button>
-                <Button type="submit" variant="contained" color="secondary">
+                <Button  onClick={onClose} variant="contained" color="secondary">
                   Cancel
                 </Button>
               </Box>

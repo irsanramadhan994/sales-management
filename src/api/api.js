@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000'; // Replace with your actual API URL
+const API_URL = 'http://localhost:3000/api'; // Replace with your actual API URL
 
 export const getSales = async (params = "") => {
   const response = await axios.get(`${API_URL}/sales/?name=`+params);
